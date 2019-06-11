@@ -1,0 +1,47 @@
+[
+    {
+        "ID": 1, 
+        "question1": "Inventor of java?", 
+        "option1": "Pavan.c", 
+        "option2":"James Gosling", 
+        "option3" :"Richie Richie", 
+        "option4":"Amos.Emmanual", 
+        "answer": "Richie Richie"
+      },
+      {
+        "ID": 2, 
+        "question2": "Which is not a data type in java?", 
+        "option1": "int", 
+        "option2":"double long", 
+        "option3":"double", 
+        "option4":"String", 
+        "answer": "double long"
+      },
+      {
+        "ID": 3, 
+        "question3": "How is java?", 
+        "option1": "Easy", 
+        "option2":"Difficult", 
+        "option3":"moderate", 
+        "option4":"none", 
+        "answer": "Easy"
+      },
+      {
+        "ID": 4, 
+        "question4": "Inventor of cprogram?", 
+        "option13": "a", 
+        "option14":"b", 
+        "option15":"c", 
+        "option16":"d", 
+        "answer": "a"
+      } ,
+      {
+        "ID": 5,
+        "question5": "Inventor of cpogram?", 
+        "option1": "a", 
+        "option2":"b", 
+        "option3":"c", 
+        "option4":"d", 
+        "answer": "b"
+      }
+]

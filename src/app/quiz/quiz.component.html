@@ -1,0 +1,61 @@
+<div class="container quiz-box">
+  <div class="quiz-list">
+    <form name="quiz" [formGroup]="quizForm" (ngSubmit)="submitTest()">
+      <div *ngFor="let c of quizes ; let i=index"><br>
+
+        <!-- {{c.question1}}
+                {{c.question2}}
+                {{c.question3}}
+                {{c.question4}}
+                {{c.question5}} <br>
+              <input  type="radio" name ="option1" [(ngModel)]="c.selected"> 
+              <label class="form-check-label">{{c.option1}} </label><br>
+              <input type="radio" name="option2" [(ngModel)]="c.selected">
+              <label class="form-check-label">{{c.option2}} </label><br>
+              <input type="radio" name="option3" [(ngModel)]="c.selected">
+              <label class="form-check-label">{{c.option3}} </label><br>
+              <input type="radio" name="option4" [(ngModel)]="c.selected">
+              <label class="form-check-label">{{c.option4}} </label><br> -->
+
+        {{c.question1}}
+        {{c.question2}}
+        {{c.question3}}
+        {{c.question4}}
+        {{c.question5}}
+        
+        <div class="form-group">
+
+          <input type="radio" class="form-control"   name="option1" formControlName="option1"
+             >
+          <label>{{c.option1}}</label>
+        </div>
+        <!-- [(ngModel)]="c.selected" -->
+        <div class="form-group">
+
+          <input type="radio"  class="form-control"  name="option2" formControlName="option2"  >
+            <!-- name="{{c.id}}" -->
+          <label>{{c.option2}}</label>
+        </div>
+
+
+        <div class="form-group">
+
+          <input type="radio" class="form-control" name="option3" formControlName="option3" >
+          <label>{{c.option3}}</label>
+        </div>
+
+        <div class="form-group">
+          <input type="radio" class="form-control"   name="option4" formControlName="option4"  >
+          <label>{{c.option4}}</label>
+        </div>
+
+
+      </div>
+      <div class="form-group">
+      <input type="submit" name="submit" value="submit">
+    </div>
+    </form>
+  </div>
+  <br>
+
+</div>

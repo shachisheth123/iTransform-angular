@@ -1,0 +1,35 @@
+
+<div  class="container course-box">
+    <h2 class="course-head">List Of Courses</h2>
+    <ul class="course-list">
+        <li *ngFor="let c of courses">
+            <a routerLink="/courses/chapter-list">
+                {{c.coursename}}
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- <div class="row">
+        <div  class = "col-md-4" class="container chapter-list">
+            <ul>
+        
+                <li *ngFor="let chapter of chapterNames">
+                       <a routerLink="module-list">
+                           {{chapter.chapter}}
+                       </a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="col-md-8" class="container chapter-list">
+            <ul>
+                <li *ngFor="let chaptermodule of chapterModules">
+                    <a routerLink="module-details">
+                        {{chaptermodule.moduleName}}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+ -->

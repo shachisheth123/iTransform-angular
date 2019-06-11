@@ -1,0 +1,16 @@
+.chapter-list {
+    padding-top: 40px;
+}
+
+.chapter-list li {
+    margin-bottom: 10px;
+}
+
+.chapter-list a {
+    font-size: 20px;
+    color: #000;
+}
+
+.chapter-list a:hover {
+    color: red;
+}

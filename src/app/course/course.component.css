@@ -1,0 +1,37 @@
+li {
+    list-style-type: square;
+}
+
+.course-list li a {
+    font-size: 20px;
+    color: #000;
+}
+
+.course-list li a:hover {
+    color: red;
+}
+
+.course-box {
+    padding-top: 30px;
+}
+
+.course-head {
+    text-align: center;
+}
+
+.chapter-list {
+    padding-top: 40px;
+}
+
+.chapter-list li {
+    margin-bottom: 10px;
+}
+
+.chapter-list a {
+    font-size: 20px;
+    color: #000;
+}
+
+.chapter-list a:hover {
+    color: red;
+}

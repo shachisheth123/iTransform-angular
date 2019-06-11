@@ -1,0 +1,32 @@
+[
+    {
+        "chapter": "Declarations and Access Control",
+        "chaptermodule":[
+            {
+                "moduleName": "Declare Classes & Interfaces",
+                "moduleDetails": [
+                    {
+                    "title": "Declare Classes",
+                    "description" : "When you write code in Java, you're writing classes or interfaces Within those classes as you know  are variables and methods (plus a few other things) How you declare your classes , methods, and variables dramatically affects your code's behavior. For example a public method can be accessed from code running anywhere in your application. Mark that method private though and it vanishes from everyone's radar (except the class in which it was declared). For this objective we'll study the ways in which you can declare and modify (or not) a class. You'll find that we cover modifiers in an extreme level of detail and though we know you're already familiar with them we're starting from the very beginning. Most Java programmers think they know how all the modifiers work but on closer study often find out that they don't (at least not to the degree needed for the exam). Subtle distinctions are everywhere so you need to be absolutely certain you're completely solid on everything in this section's objectives before taking the exam.",
+                    "subtitle" : "Class Declarations and Modifiers",
+                    "subdescription" : "Although nested (often called inner) classes are on the exam we'll save nested class declarations for Chapter 8. You're going to love that chapter. No really. Seriously. The following code is a bare-bones class declaration: class MyClass { }  This code compiles just fine, but you can also add modifiers before the class declaration. Modifiers fall into two categories: 1)Access modifiers: public, protected, private 2)Non-access modifiers (including strictfp, final, and abstract).",
+                    "subtitle1": "Class Access",
+                    "subdescription1" : "What does it mean to access a class? When we say code from one class (class A) has access to another class (class B) it means class A can do one of three things: 1)Create an instance of class B. 2)Extend class B (in other words, become a subclass of class B). 3)Access certain methods and variables within class B, depending on the access control of those methods and variables. In effect, access means visibility. If class A can't see class B, the access level of the  methods and variables within class B won't matter; class A won't have any way to access those methods and variables. "
+                    }
+            ]
+            },
+            {
+                "moduleName": "Develop Interfaces & Abstract Classes"
+            },
+            {
+                "moduleName": "Use Primitives, Arrays, Enums, & Legal Identifiers"
+            },
+            {
+                "moduleName": "Use Static Methods, JavaBeans Naming, & Var-Args"
+            }
+        ]
+    },
+    {
+        "chapter": "Object Orientation"
+    }
+]
